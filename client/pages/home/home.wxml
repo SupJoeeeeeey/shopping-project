@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<image src='../../images/bg.png' class="bg"></image>
+<view class="hot-card">
+  <view class="hot-card-title">
+    <image src="../../images/line-red.png" class="hot-card-line"></image>
+    <view class="hot-card-name">{{productList[0].name}}</view>
+    <image src="../../images/line-red.png" class="hot-card-line"></image>
+  </view>
+  <image src="../../images/discount.png" class="hot-card-discount"></image>
+  <image src="{{ productList[0].image}}" class="hot-card-image"></image>
+</view>

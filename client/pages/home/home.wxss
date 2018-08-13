@@ -1,0 +1,38 @@
+/* pages/home/home.wxss */
+.hot-card{
+  position:relative;
+  margin: 32rpx 52rpx 0rpx;
+  height: 324rpx;
+  box-shadow: 0rpx 2rpx 13rpx 5rpx rgba(0,0,0,0.2);
+  background: #FFFFFF;
+  border-radius: 13rpx;
+}
+.hot-card-title{
+  display:flex;
+  position:relative;
+  left:32rpx;
+  top: 50rpx;
+}
+.hot-card-name{
+  line-height: 39rpx;
+  margin: 0 20rpx;
+  color: #34373D;
+}
+.hot-card-line{
+  width:24rpx;
+  height:39rpx;
+}
+.hot-card-discount{
+  width:259rpx;
+  height:188rpx;
+  position: absolute;
+  bottom: 0;
+  left:40rpx;
+}
+.hot-card-image{
+  width:241rpx;
+  height:241rpx;
+  position: absolute;
+  right:40rpx;
+  top:60rpx;
+}
