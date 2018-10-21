@@ -22,9 +22,20 @@
             24小时内发货并配送运费险
             </view>
         </view>
-        <image class="" src=""></image>
         <view class="product-rating">
-        
+          <view class="rating-title">
+            <view class="rating-title-name">已买评价</view>
+            <view class="rating-title-number">
+            1条
+            <image class="right-bracket" src="../../images/grey-arrow.png"></image>
+            </view>
+          </view>
+          <view class="rating-detail">货品很不错！</view>          
         </view>
+    </view>
+
+    <view class="product-buying">
+    <view class="buying-trolley">加入购物车</view>
+    <view class="buying-now">立即购买</view>
     </view>
 </view>

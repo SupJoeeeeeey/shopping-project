@@ -63,7 +63,7 @@
 }
 
 .product-info{
-  margin-top:10rpx;
+  margin-top:70rpx;
   width:95%;
   height:300rpx;
   box-shadow: 0rpx 2rpx 13rpx 5rpx rgba(0,0,0,0.2);
@@ -76,7 +76,7 @@
   display: flex;
   font-size: 26rpx;
   line-height: 36rpx;
-  margin: 5rpx 0 10rpx 30rpx;
+  margin: 20rpx 0 20rpx 30rpx;
 }
 
 .yellow-check{
@@ -85,8 +85,68 @@
 }
 
 .product-service{
-  border-bottom: black 2rpx solid;
+  border-bottom: rgba(111,111,111,0.5) 4rpx solid;
   width: 95%;
-  margin: 5px auto;
+  margin: 5rpx auto;
 }
 
+.product-rating{
+  width:95%;
+  margin: 5rpx auto;
+}
+
+.rating-title{
+  display:flex;
+  font-size: 32rpx;
+  line-height: 50rpx;
+  margin-top: 20rpx;
+}
+
+.rating-title-name{
+  text-align:left;
+  font-weight: bold;
+  width:30%;
+}
+
+.rating-title-number{
+  position:relative;
+  text-align:right;
+  width: 70%;
+  font-size: 32rpx;
+  color: rgba(111,111,111,0.5);
+}
+
+.right-bracket{
+  width:24rpx;
+  height: 24rpx;
+}
+
+.rating-detail{
+  font-size: 32rpx;
+  line-height:45rpx;
+  margin: 20rpx 30rpx;
+  text-align: left;
+  color: rgba(111,111,111,0.5);
+}
+
+.product-buying{
+  display: flex;
+  position: fixed;
+  bottom: 0rpx;
+  text-align:center;
+  width: 100%;
+  font-size: 36rpx;
+  line-height: 50rpx;
+}
+
+.buying-trolley{
+  width:50%;
+  background-color: rgb(245, 232, 161);
+  padding: 30rpx;
+}
+
+.buying-now{
+  width:50%;
+  background-color:rgb(245, 222, 92);
+  padding: 30rpx;
+}
