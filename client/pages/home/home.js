@@ -1,5 +1,6 @@
 // pages/home/home.js
 const qcloud = require('../../vendor/wafer2-client-sdk/index.js');
+const config = require('../../config.js');
 Page({
   /**
    * 页面的初始数据
@@ -20,7 +21,7 @@ Page({
       title: '商品数据加载中...'
     });
     qcloud.request({
-      url: 'https://ymnwue4u.qcloud.la/weapp/product',
+      url: config.service.productList,
       success: result => {
         if(!result.data.code){
           this.setData({

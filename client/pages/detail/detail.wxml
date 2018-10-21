@@ -1,13 +1,13 @@
 <view class="container">
     <view class="product-card">
-        <image class="product-image" src="{{products[0].image}}" mode="widthFix"></image>
+        <image class="product-image" src="{{product.image}}" mode="widthFix"></image>
         <view class="product-detail">
-            <view class="product-name">{{products[0].name}}</view>
-            <view class="product-address">{{products[0].source}}</view>
+            <view class="product-name">{{product.name}}</view>
+            <view class="product-address">{{product.source}}</view>
         </view>
         <view class="product-price">
             <view class="product-unit">￥</view>
-            <view class="product-number">{{products[0].price}}</view>
+            <view class="product-number">{{product.price}}</view>
         </view>
     </view>
 

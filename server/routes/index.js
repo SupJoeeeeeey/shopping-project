@@ -34,4 +34,7 @@ router.post('/message', controllers.message.post)
 
 //test
 router.get('/product', controllers.product.list)
+
+router.get('/product/:id', controllers.product.detail)
+
 module.exports = router
