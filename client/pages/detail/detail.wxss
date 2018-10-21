@@ -24,6 +24,16 @@
   height:300rpx;
 }
 
+.product-name{
+  font-weight:bold;
+  font-size: 32rpx;
+  line-height: 52rpx; 
+}
+
+.product-address{
+  color:grey;
+}
+
 .product-price{
   margin: 20rpx 0;
   position:relative;
@@ -59,6 +69,7 @@
   box-shadow: 0rpx 2rpx 13rpx 5rpx rgba(0,0,0,0.2);
   background: #FFFFFF;
   border-radius: 13rpx;
+  text-align:center;
 }
 
 .product-service-detail{
@@ -72,3 +83,10 @@
   width: 36rpx;
   height: 36rpx;
 }
+
+.product-service{
+  border-bottom: black 2rpx solid;
+  width: 95%;
+  margin: 5px auto;
+}
+
