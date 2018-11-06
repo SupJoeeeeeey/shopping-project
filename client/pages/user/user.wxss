@@ -1,1 +1,32 @@
 /* pages/user/user.wxss */
+.user-options{
+  display: flex;
+  width: 90%;
+  margin: 60rpx auto;
+}
+.user-options .options{
+  display: flex;
+  align-items: center;
+  margin: 50rpx 27rpx 0;
+  height: 200rpx;
+  background: #FFFFFF;
+  box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
+  border-radius: 13rpx;
+}
+.user-avatar{
+  flex-shrink: 0;
+  margin-left: 53rpx;
+  height: 100rpx;
+  width: 100rpx;
+  background: #F5E069;
+  border-radius: 50%;
+}
+
+.user-name{
+  margin-left: 53rpx;
+}
+
+.right-bracket{
+  width: 36rpx;
+  height: 36rpx;
+}

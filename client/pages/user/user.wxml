@@ -1,2 +1,25 @@
-<!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<image src='../../images/bg.png' class="bg"></image>
+
+<view class="user-options" wx:if="{{userInfo != null}}">
+  <view class="user-options options">
+    <view class="user-avatar"></view>
+    <view class="user-name"></view>
+    <image class="right-bracket" src="../../images/grey-arrow.png"></image>
+  </view>
+  <view class="user-options options">
+    <view class="option-name">收货地址</view>
+    <image class="right-bracket" src="../../images/grey-arrow.png"></image>
+  </view>
+  <view class="user-options options">
+    <view class="option-name">联系客服</view>
+    <image class="right-bracket" src="../../images/grey-arrow.png"></image>
+  </view>
+</view>
+
+<view class="user-options" wx:else>
+  <view class="user-options options">
+  <view class="user-avatar"></view>
+  <view class="user-name">请登录</view>
+  <image class="right-bracket" src="../../images/grey-arrow.png"></image>
+  </view>
+</view>
